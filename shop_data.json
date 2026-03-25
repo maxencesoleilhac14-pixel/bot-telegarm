@@ -1,0 +1,659 @@
+{
+  "users": {
+    "6440673880": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null
+    },
+    "8567294409": {
+      "cart": [
+        "mcdo_225_249"
+      ],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": null,
+      "balance": 0.0,
+      "awaiting_deposit_id": null
+    },
+    "1270174483": {
+      "cart": [],
+      "awaiting_order_id": "2",
+      "admin_state": null
+    },
+    "8799496125": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": {
+        "action": "new_ticket",
+        "category": "question"
+      },
+      "balance": 33.0,
+      "awaiting_deposit_id": null
+    },
+    "8057189856": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": null
+    }
+  },
+  "products": {
+    "mcdo_50_74": {
+      "name": "McDo 50-74 pts",
+      "price": 3.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_75_99": {
+      "name": "McDo 75-99 pts",
+      "price": 4.5,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_100_124": {
+      "name": "McDo 100-124 pts",
+      "price": 6.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_125_149": {
+      "name": "McDo 125-149 pts",
+      "price": 7.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_150_174": {
+      "name": "McDo 150-174 pts",
+      "price": 8.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_175_199": {
+      "name": "McDo 175-199 pts",
+      "price": 9.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_200_224": {
+      "name": "McDo 200-224 pts",
+      "price": 10.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_225_249": {
+      "name": "McDo 225-249 pts",
+      "price": 14.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_250_274": {
+      "name": "McDo 250-274 pts",
+      "price": 15.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_275_299": {
+      "name": "McDo 275-299 pts",
+      "price": 16.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "deezer_premium": {
+      "name": "Deezer Premium",
+      "price": 5.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "spotify_premium": {
+      "name": "Spotify Premium",
+      "price": 6.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "netflix": {
+      "name": "Netflix",
+      "price": 13.5,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "crunchyroll": {
+      "name": "Crunchyroll",
+      "price": 6.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "chatgpt": {
+      "name": "ChatGPT",
+      "price": 12.5,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "disney_plus": {
+      "name": "Disney+",
+      "price": 9.99,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "amazon_prime": {
+      "name": "Amazon Prime",
+      "price": 8.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "snapchat": {
+      "name": "Snapchat",
+      "price": 10.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "discord_nitro": {
+      "name": "Discord Nitro",
+      "price": 3.2,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "basic_fit": {
+      "name": "Basic Fit",
+      "price": 35.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "tiktok_boost": {
+      "name": "TikTok Boost",
+      "price": 0.6,
+      "category": "boosts",
+      "type": "manual",
+      "active": false
+    },
+    "insta_boost": {
+      "name": "Insta Boost",
+      "price": 0.6,
+      "category": "boosts",
+      "type": "manual",
+      "active": false
+    },
+    "refund_eneba": {
+      "name": "Refund Eneba",
+      "price": 50.0,
+      "category": "refunds",
+      "type": "manual",
+      "active": false
+    },
+    "refund_uber": {
+      "name": "Refund Uber",
+      "price": 50.0,
+      "category": "refunds",
+      "type": "manual",
+      "active": false
+    },
+    "burger_king": {
+      "name": "Burger King",
+      "price": 1.5,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "kfc": {
+      "name": "KFC",
+      "price": 5.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "quick": {
+      "name": "Quick",
+      "price": 4.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "flunch": {
+      "name": "Flunch",
+      "price": 5.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "otacos": {
+      "name": "O'Tacos",
+      "price": 5.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "card_zalando": {
+      "name": "Carte Zalando",
+      "price": 10.0,
+      "category": "giftcards",
+      "type": "stock",
+      "active": false
+    },
+    "card_carrefour": {
+      "name": "Carte Carrefour",
+      "price": 10.0,
+      "category": "giftcards",
+      "type": "stock",
+      "active": false
+    },
+    "card_conforama": {
+      "name": "Carte Conforama",
+      "price": 10.0,
+      "category": "giftcards",
+      "type": "stock",
+      "active": false
+    },
+    "kfc_600_799": {
+      "name": "KFC 600-799 pts",
+      "price": 5.0,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_800_999": {
+      "name": "KFC 800-999 pts",
+      "price": 6.25,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1000_1299": {
+      "name": "KFC 1000-1299 pts",
+      "price": 7.25,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1300_1599": {
+      "name": "KFC 1300-1599 pts",
+      "price": 8.0,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1600_1799": {
+      "name": "KFC 1600-1799 pts",
+      "price": 8.75,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1800_2099": {
+      "name": "KFC 1800-2099 pts",
+      "price": 9.5,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_2100_2499": {
+      "name": "KFC 2100-2499 pts",
+      "price": 11.0,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_2500": {
+      "name": "KFC 2500 pts",
+      "price": 12.5,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    }
+  },
+  "stock": {
+    "deezer_premium": [],
+    "spotify_premium": [],
+    "netflix": [],
+    "crunchyroll": [],
+    "chatgpt": [],
+    "disney_plus": [],
+    "amazon_prime": [],
+    "snapchat": [],
+    "discord_nitro": [],
+    "basic_fit": [],
+    "card_zalando": [],
+    "card_carrefour": [],
+    "card_conforama": []
+  },
+  "orders": {
+    "2": {
+      "user_id": 1270174483,
+      "items": [
+        "mcdo_275_299"
+      ],
+      "total": 16.0,
+      "status": "awaiting_proof",
+      "proof_file_id": null,
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "3": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_50_74"
+      ],
+      "total": 3.0,
+      "status": "delivered",
+      "proof_file_id": "AgACAgQAAxkBAAICmWnC1r1_nVolU9x9kCBUSAAB6wNu7gACiQ5rGxcaGFK1XkRSLGN_bgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "4": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_50_74"
+      ],
+      "total": 3.0,
+      "status": "delivered",
+      "proof_file_id": "AgACAgQAAxkBAAICmWnC1r1_nVolU9x9kCBUSAAB6wNu7gACiQ5rGxcaGFK1XkRSLGN_bgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "5": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_50_74"
+      ],
+      "total": 3.0,
+      "status": "delivered",
+      "proof_file_id": "AgACAgQAAxkBAAIEuWnDI68E5-O8V7-Wd9kREaInFBhhAAKxDWsbNy4ZUufJkxSamQmtAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "6": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_50_74"
+      ],
+      "total": 3.0,
+      "status": "delivered",
+      "proof_file_id": "AgACAgQAAxkBAAICmWnC1r1_nVolU9x9kCBUSAAB6wNu7gACiQ5rGxcaGFK1XkRSLGN_bgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "8": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_200_224",
+        "mcdo_100_124",
+        "mcdo_125_149"
+      ],
+      "total": 23.0,
+      "status": "proof_received",
+      "expires_at": 1774398268,
+      "proof_file_id": "AgACAgQAAxkBAAICmWnC1r1_nVolU9x9kCBUSAAB6wNu7gACiQ5rGxcaGFK1XkRSLGN_bgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "9": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_225_249"
+      ],
+      "total": 14.0,
+      "status": "cancelled",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAICmWnC1r1_nVolU9x9kCBUSAAB6wNu7gACiQ5rGxcaGFK1XkRSLGN_bgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "10": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_125_149"
+      ],
+      "total": 7.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIE8GnDLF9mk_YGlsU990ofNZhxHd_hAAKyDWsbNy4ZUhAeFrDJGPVXAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "11": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_125_149"
+      ],
+      "total": 7.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAICmWnC1r1_nVolU9x9kCBUSAAB6wNu7gACiQ5rGxcaGFK1XkRSLGN_bgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "12": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_250_274"
+      ],
+      "total": 15.0,
+      "status": "proof_received",
+      "expires_at": null,
+      "proof_file_id": "PAID_BY_BALANCE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "13": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_200_224"
+      ],
+      "total": 10.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "PAID_BY_BALANCE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "14": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_100_124"
+      ],
+      "total": 6.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "PAID_BY_BALANCE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "15": {
+      "user_id": 8799496125,
+      "items": [
+        "kfc_1300_1599",
+        "mcdo_125_149"
+      ],
+      "total": 15.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIF92nD8M34wMPaoF-0Grb8wt4x2tB9AAIlEGsbNy4hUsBv9cxN8VOKAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "16": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_150_174",
+        "kfc_2500"
+      ],
+      "total": 20.5,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIF92nD8M34wMPaoF-0Grb8wt4x2tB9AAIlEGsbNy4hUsBv9cxN8VOKAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "17": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_200_224",
+        "kfc_1600_1799",
+        "kfc_1600_1799"
+      ],
+      "total": 27.5,
+      "status": "cancelled",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIGD2nD9tUnxkk8jFlilbfO87JbOl8NAAIpEGsbNy4hUm3MbxaFQMHaAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": []
+    },
+    "18": {
+      "user_id": 8799496125,
+      "items": [
+        "kfc_2100_2499",
+        "mcdo_200_224"
+      ],
+      "total": 21.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIF92nD8M34wMPaoF-0Grb8wt4x2tB9AAIlEGsbNy4hUsBv9cxN8VOKAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": [
+        "kfc_2100_2499",
+        "mcdo_200_224"
+      ]
+    },
+    "19": {
+      "user_id": 8799496125,
+      "items": [
+        "kfc_2100_2499",
+        "kfc_1000_1299",
+        "mcdo_75_99",
+        "mcdo_75_99",
+        "mcdo_275_299"
+      ],
+      "total": 43.25,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIGJGnD93kkEtFivWSR0MuTRxhaNUApAAIqEGsbNy4hUu3RliqmGu2_AQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": [
+        "kfc_2100_2499",
+        "kfc_1000_1299",
+        "mcdo_75_99",
+        "mcdo_75_99",
+        "mcdo_275_299"
+      ]
+    },
+    "20": {
+      "user_id": 8799496125,
+      "items": [
+        "kfc_1600_1799",
+        "mcdo_150_174",
+        "mcdo_150_174"
+      ],
+      "total": 24.75,
+      "status": "awaiting_delivery",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIGRGnD-hwSQr4KkfQAAZF2vz_r0ZMsWAACMhBrGzcuIVKHf0hUvSP2tgEAAwIAA3kAAzoE",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [
+        "kfc_1600_1799",
+        "mcdo_150_174",
+        "mcdo_150_174"
+      ],
+      "manual_delivery_sent": []
+    },
+    "21": {
+      "user_id": 8799496125,
+      "items": [
+        "mcdo_225_249"
+      ],
+      "total": 14.0,
+      "status": "delivered",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIGWmnD_EXK01Xm26S5B705tXb7ZRsTAAI1EGsbNy4hUuEcQVM4y92nAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": [
+        "mcdo_225_249"
+      ]
+    }
+  },
+  "next_order_id": 22,
+  "tickets": {},
+  "next_ticket_id": 16,
+  "deposits": {
+    "1": {
+      "user_id": 8799496125,
+      "amount": 15.0,
+      "status": "approved",
+      "proof_file_id": "AgACAgQAAxkBAAIE8GnDLF9mk_YGlsU990ofNZhxHd_hAAKyDWsbNy4ZUhAeFrDJGPVXAQADAgADeQADOgQ",
+      "expires_at": null
+    },
+    "2": {
+      "user_id": 8799496125,
+      "amount": 15.0,
+      "status": "approved",
+      "proof_file_id": "AgACAgQAAxkBAAIFsGnDOsSzSLvjp0UDjoglwBi3oZ8yAAK0DWsbNy4ZUk67a4uP0lxlAQADAgADeQADOgQ",
+      "expires_at": null
+    },
+    "3": {
+      "user_id": 8799496125,
+      "amount": 1.0,
+      "status": "approved",
+      "proof_file_id": "AgACAgQAAxkBAAIFvmnDPA_AQbxigG847XbM98vfOmwdAAK1DWsbNy4ZUpUxf9bPqpEBAQADAgADeQADOgQ",
+      "expires_at": null
+    }
+  },
+  "next_deposit_id": 4,
+  "shop_open": true,
+  "support_admins": [
+    "8799496125"
+  ]
+}
