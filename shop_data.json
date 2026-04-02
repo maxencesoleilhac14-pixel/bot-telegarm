@@ -1,0 +1,574 @@
+{
+  "users": {
+    "6440673880": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "awaiting_deposit_id": null,
+      "balance": 0.0,
+      "state": null
+    },
+    "8567294409": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": null,
+      "balance": 0.0,
+      "awaiting_deposit_id": null,
+      "username": "@sky13k",
+      "display_name": "𝘫𝘢𝘮𝘢𝘭 🔱"
+    },
+    "1270174483": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": null,
+      "balance": 0.0,
+      "awaiting_deposit_id": null,
+      "username": null,
+      "display_name": null
+    },
+    "8799496125": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": null,
+      "balance": 0.0,
+      "awaiting_deposit_id": null,
+      "username": "@Jamalwere",
+      "display_name": "Sky"
+    },
+    "8057189856": {
+      "cart": [],
+      "awaiting_order_id": null,
+      "admin_state": null,
+      "state": null,
+      "awaiting_deposit_id": null,
+      "balance": 0.0
+    }
+  },
+  "products": {
+    "mcdo_50_74": {
+      "name": "McDo 50-74 pts",
+      "price": 3.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_75_99": {
+      "name": "McDo 75-99 pts",
+      "price": 4.5,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_100_124": {
+      "name": "McDo 100-124 pts",
+      "price": 6.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_125_149": {
+      "name": "McDo 125-149 pts",
+      "price": 7.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_150_174": {
+      "name": "McDo 150-174 pts",
+      "price": 8.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_175_199": {
+      "name": "McDo 175-199 pts",
+      "price": 9.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_200_224": {
+      "name": "McDo 200-224 pts",
+      "price": 10.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_225_249": {
+      "name": "McDo 225-249 pts",
+      "price": 14.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_250_274": {
+      "name": "McDo 250-274 pts",
+      "price": 15.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "mcdo_275_299": {
+      "name": "McDo 275-299 pts",
+      "price": 16.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": true,
+      "subcategory": "mcdo"
+    },
+    "deezer_premium": {
+      "name": "Deezer Premium",
+      "price": 5.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "spotify_premium": {
+      "name": "Spotify Premium",
+      "price": 15.5,
+      "category": "subscriptions",
+      "type": "manual",
+      "active": true
+    },
+    "netflix": {
+      "name": "Netflix",
+      "price": 13.5,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "crunchyroll": {
+      "name": "Crunchyroll",
+      "price": 6.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "chatgpt": {
+      "name": "ChatGPT",
+      "price": 12.5,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "disney_plus": {
+      "name": "Disney+",
+      "price": 9.99,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "amazon_prime": {
+      "name": "Amazon Prime",
+      "price": 8.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "snapchat": {
+      "name": "Snapchat",
+      "price": 10.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "discord_nitro": {
+      "name": "Nitro",
+      "price": 1.9,
+      "category": "boosts",
+      "type": "manual",
+      "active": true,
+      "subcategory": "discord"
+    },
+    "basic_fit": {
+      "name": "Basic Fit",
+      "price": 35.0,
+      "category": "subscriptions",
+      "type": "stock",
+      "active": false
+    },
+    "tiktok_boost": {
+      "name": "1K vues TikTok",
+      "price": 0.6,
+      "category": "boosts",
+      "type": "manual",
+      "active": true,
+      "subcategory": "tiktok"
+    },
+    "insta_boost": {
+      "name": "1K abonnes Instagram",
+      "price": 2.5,
+      "category": "boosts",
+      "type": "manual",
+      "active": true,
+      "subcategory": "instagram"
+    },
+    "refund_eneba": {
+      "name": "Refund Eneba",
+      "price": 50.0,
+      "category": "refunds",
+      "type": "manual",
+      "active": false
+    },
+    "refund_uber": {
+      "name": "Refund Uber",
+      "price": 50.0,
+      "category": "refunds",
+      "type": "manual",
+      "active": false
+    },
+    "burger_king": {
+      "name": "Burger King",
+      "price": 1.5,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "kfc": {
+      "name": "KFC",
+      "price": 5.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "quick": {
+      "name": "Quick",
+      "price": 4.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "flunch": {
+      "name": "Flunch",
+      "price": 5.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "otacos": {
+      "name": "308 pts",
+      "price": 5.0,
+      "category": "fastfood",
+      "type": "manual",
+      "active": false
+    },
+    "card_zalando": {
+      "name": "Carte Zalando",
+      "price": 10.0,
+      "category": "giftcards",
+      "type": "stock",
+      "active": false
+    },
+    "card_carrefour": {
+      "name": "Carte Carrefour",
+      "price": 10.0,
+      "category": "giftcards",
+      "type": "stock",
+      "active": false
+    },
+    "card_conforama": {
+      "name": "Carte Conforama",
+      "price": 10.0,
+      "category": "giftcards",
+      "type": "stock",
+      "active": false
+    },
+    "kfc_600_799": {
+      "name": "KFC 600-799 pts",
+      "price": 5.0,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_800_999": {
+      "name": "KFC 800-999 pts",
+      "price": 6.25,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1000_1299": {
+      "name": "KFC 1000-1299 pts",
+      "price": 7.25,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1300_1599": {
+      "name": "KFC 1300-1599 pts",
+      "price": 8.0,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1600_1799": {
+      "name": "KFC 1600-1799 pts",
+      "price": 8.75,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_1800_2099": {
+      "name": "KFC 1800-2099 pts",
+      "price": 9.5,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_2100_2499": {
+      "name": "KFC 2100-2499 pts",
+      "price": 11.0,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "kfc_2500": {
+      "name": "KFC 2500 pts",
+      "price": 12.5,
+      "category": "fastfood",
+      "subcategory": "kfc",
+      "type": "manual",
+      "active": true
+    },
+    "ubereats_offer": {
+      "name": "Uber Eats -50%",
+      "price": 20.0,
+      "category": "ubereats",
+      "type": "manual",
+      "active": true
+    },
+    "osint_offer": {
+      "name": "Recherche OSINT",
+      "price": 5.0,
+      "category": "osint",
+      "type": "manual",
+      "active": true
+    },
+    "tiktok_followers": {
+      "name": "1K abonnes TikTok",
+      "price": 4.5,
+      "category": "boosts",
+      "type": "manual",
+      "active": true,
+      "subcategory": "tiktok"
+    },
+    "discord_boost": {
+      "name": "Nitro Boost",
+      "price": 3.9,
+      "category": "boosts",
+      "type": "manual",
+      "active": true,
+      "subcategory": "discord"
+    },
+    "insta_views": {
+      "name": "1K vues Instagram",
+      "price": 0.6,
+      "category": "boosts",
+      "subcategory": "instagram",
+      "type": "manual",
+      "active": true
+    },
+    "tiktok_likes": {
+      "name": "1K likes TikTok",
+      "price": 1.25,
+      "category": "boosts",
+      "subcategory": "tiktok",
+      "type": "manual",
+      "active": true
+    },
+    "tiktok_verify": {
+      "name": "Certif TikTok",
+      "price": 15.5,
+      "category": "boosts",
+      "subcategory": "tiktok",
+      "type": "manual",
+      "active": true
+    },
+    "quick_300": {
+      "name": "Quick 300 pts",
+      "price": 4.0,
+      "category": "fastfood",
+      "subcategory": "quick",
+      "type": "manual",
+      "active": true
+    },
+    "quick_500": {
+      "name": "Quick 500 pts",
+      "price": 5.0,
+      "category": "fastfood",
+      "subcategory": "quick",
+      "type": "manual",
+      "active": true
+    },
+    "quick_750": {
+      "name": "Quick 750 pts",
+      "price": 8.0,
+      "category": "fastfood",
+      "subcategory": "quick",
+      "type": "manual",
+      "active": true
+    },
+    "quick_900": {
+      "name": "Quick 900 pts",
+      "price": 9.0,
+      "category": "fastfood",
+      "subcategory": "quick",
+      "type": "manual",
+      "active": true
+    },
+    "quick_1000": {
+      "name": "Quick 1000 pts",
+      "price": 10.0,
+      "category": "fastfood",
+      "subcategory": "quick",
+      "type": "manual",
+      "active": true
+    },
+    "flunch_60": {
+      "name": "Flunch 60 pts",
+      "price": 5.0,
+      "category": "fastfood",
+      "subcategory": "flunch",
+      "type": "manual",
+      "active": true
+    },
+    "flunch_80": {
+      "name": "Flunch 80 pts",
+      "price": 6.0,
+      "category": "fastfood",
+      "subcategory": "flunch",
+      "type": "manual",
+      "active": true
+    },
+    "flunch_100": {
+      "name": "Flunch 100 pts",
+      "price": 7.0,
+      "category": "fastfood",
+      "subcategory": "flunch",
+      "type": "manual",
+      "active": true
+    },
+    "flunch_150": {
+      "name": "Flunch 150 pts",
+      "price": 8.0,
+      "category": "fastfood",
+      "subcategory": "flunch",
+      "type": "manual",
+      "active": true
+    },
+    "flunch_210": {
+      "name": "Flunch 210 pts",
+      "price": 9.0,
+      "category": "fastfood",
+      "subcategory": "flunch",
+      "type": "manual",
+      "active": true
+    },
+    "flunch_300": {
+      "name": "Flunch 300 pts",
+      "price": 10.0,
+      "category": "fastfood",
+      "subcategory": "flunch",
+      "type": "manual",
+      "active": true
+    },
+    "pitaya_50": {
+      "name": "Pitaya 50 pts",
+      "price": 1.5,
+      "category": "fastfood",
+      "subcategory": "pitaya",
+      "type": "manual",
+      "active": true
+    },
+    "pitaya_100": {
+      "name": "Pitaya 100 pts",
+      "price": 3.0,
+      "category": "fastfood",
+      "subcategory": "pitaya",
+      "type": "manual",
+      "active": true
+    },
+    "pitaya_200": {
+      "name": "Pitaya 200 pts",
+      "price": 5.0,
+      "category": "fastfood",
+      "subcategory": "pitaya",
+      "type": "manual",
+      "active": true
+    },
+    "pitaya_300": {
+      "name": "Pitaya 300 pts",
+      "price": 7.5,
+      "category": "fastfood",
+      "subcategory": "pitaya",
+      "type": "manual",
+      "active": true
+    },
+    "pitaya_550": {
+      "name": "Pitaya 550 pts",
+      "price": 4.5,
+      "category": "fastfood",
+      "subcategory": "pitaya",
+      "type": "manual",
+      "active": true
+    }
+  },
+  "stock": {
+    "deezer_premium": [],
+    "netflix": [],
+    "crunchyroll": [],
+    "chatgpt": [],
+    "disney_plus": [],
+    "amazon_prime": [],
+    "snapchat": [],
+    "basic_fit": [],
+    "card_zalando": [],
+    "card_carrefour": [],
+    "card_conforama": []
+  },
+  "orders": {
+    "1": {
+      "user_id": 8799496125,
+      "items": [
+        "otacos_custom_1"
+      ],
+      "total": 47.0,
+      "status": "delivered",
+      "payment_method": "paypal",
+      "expires_at": null,
+      "proof_file_id": "AgACAgQAAxkBAAIKXGnNtdC31prKlGVHnzl5Pimq3CbuAAIwDWsbVmdxUqiQFd8-P_fiAQADAgADeQADOgQ",
+      "stock_keys_sent": [],
+      "manual_delivery_queue": [],
+      "manual_delivery_sent": [
+        "otacos_custom_1"
+      ]
+    }
+  },
+  "next_order_id": 2,
+  "tickets": {},
+  "next_ticket_id": 1,
+  "deposits": {},
+  "next_deposit_id": 1,
+  "shop_open": true,
+  "support_admins": [],
+  "balance_logs": []
+}
